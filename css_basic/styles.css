@@ -4,6 +4,7 @@ body,main{
 }
 body{
     flex-direction:column;
+    background-color: aquamarine;
 }
 main{
     flex-direction:row;
@@ -16,4 +17,15 @@ article{
 aside{
     flex:1;
     overflow-y: auto;
+}
+header{
+    background-color: antiquewhite;
+}
+h1,h2,h3{
+    text-align: center;
+    text-decoration: wavy;
+}
+footer{
+    background-color: antiquewhite;
+    text-align: center;
 }
