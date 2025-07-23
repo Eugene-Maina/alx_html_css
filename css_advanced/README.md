@@ -1,0 +1,1 @@
+This project involves advances css where I style a html document from scratch.
