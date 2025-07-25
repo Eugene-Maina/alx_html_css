@@ -134,7 +134,95 @@ header nav a{
 }
 .weather-image{
 }
-
+.video-heading{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+}
+.videos{
+    Display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left: 20px;
+    gap:20px;
+    padding: 20px 0;
+    margin:0 auto;
+    max-width: 1200px;
+}
+.video-item{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(25% - 15px); 
+    margin-bottom: 30px;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.video-item h3{
+    font-family: 'Source Sans Pro';
+    font-weight:bold;
+}
+.video-item p{
+    color:#071629;
+    font-family: 'Source Sans Pro';
+}
+.philiplogo{
+    display:flex;
+    flex-direction: row;
+}
+.philiplogo img{
+    width:40px;
+    height:40px;
+    margin-right: 10px;
+}
+.philiplogo h4{
+    text-align: center;
+    color:#C271FF;
+    font-family: 'Source Sans Pro';
+    justify-content: center;
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ratings img{
+    width:fit-content;
+    height: fit-content;
+}
+.ratings p{
+    font-family: 'Source Sans Pro';
+    color:#C271FF;
+    width:fit-content;
+    height: fit-content;
+}
+.underlay{
+    z-index: 1;
+    display: block;
+}
+.overlay{
+    z-index: 2;
+    position:absolute;
+    object-fit: contain;
+    left: 50%;
+    top:55px;
+    transform: translateX(-50%);
+}
+.populartext{
+    color:#C271FF;
+    font-weight: bold;
+    
+}
+.most{
+    font-weight: lighter;
+    color: black;
+}
+.tutorials{
+    font-weight: lighter;
+    color:black;
+}
 
 
 
