@@ -319,4 +319,35 @@ header nav a{
     color:#071629;
     font-family:'Source Sans Pro';
 }
+.footer{
+    background-color: #071629;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.fa-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-container i{
+    border-radius: 50%;
+    background-color: #fff;
+    width:40px;
+    height: 40px;
+    display:grid;
+    place-items: center; 
+}
+.footer-copy{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    color:#fff;
+    border-radius: 8px;
+    width:50px;
+}
+
 
