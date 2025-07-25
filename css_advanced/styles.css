@@ -287,3 +287,36 @@ header nav a{
      border-radius: 25px;
     padding: 15px 40px;
 }
+.faq-section{
+    padding-top: 10px;
+    padding-bottom:100px;
+    background-color: #fff;
+    position: relative;
+}
+.faq-section h2{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
+    color:#071629;
+    font-size: 55px;
+}
+.faq{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.faq1{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+}
+.faq1 h3{
+    color:#071629;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+.faq1 p {
+    color:#071629;
+    font-family:'Source Sans Pro';
+}
+
