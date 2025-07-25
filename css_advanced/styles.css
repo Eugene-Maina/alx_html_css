@@ -223,6 +223,67 @@ header nav a{
     font-weight: lighter;
     color:black;
 }
-
-
-
+.membership-section{
+    background-color:#071629;
+    padding-top: 100px;
+    padding-bottom:200px;
+}
+.membership-section h2{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: auto;
+}
+.free{
+    color:#C271FF;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: larger;
+}
+.memb{
+    color:#fff;
+    font-family:'Source Sans Pro';
+    font-weight: lighter;
+    font-size: larger;
+}
+.smile{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+}
+.smile1{
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width:250px;
+    text-align:center;
+    justify-content: space-around;
+}
+.smile1 img{
+    width: 40px;
+    height:40px ;
+    position: relative;
+    right:0px;
+    left:100px;
+}
+.smile1 h3{
+    font-family: 'Source Sans Pro';
+    color: #fff;
+    font-weight:bold;
+}
+.smile1 p{
+    font-family: 'Source Sans Pro';
+    color:#fff;
+}
+.buton-container{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0%;
+}
+.buton{
+    background:#C271FF;
+     color:white;
+     border:none;
+     border-radius: 25px;
+    padding: 15px 40px;
+}
