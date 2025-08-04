@@ -1,0 +1,1 @@
+This project involves implementing a figma design and convertiong it to a simple but responsive website made with HTML5, CSS, and JAVASCRIPT.
