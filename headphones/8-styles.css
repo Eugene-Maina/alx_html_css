@@ -1,0 +1,460 @@
+html{
+    scroll-behavior: smooth;
+}
+.hero-container{
+    background-image:url(images/headphones_hero_1.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #333333;
+    background-attachment:scroll;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    min-height:auto;
+}
+body{
+    margin:0;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 160px;
+    width:100%;
+    margin-top: 10px;
+}
+header img{
+    width:100px;
+    margin-left:35px;
+}
+header nav{
+    display:flex;
+    justify-content: flex-end;
+    margin-left:auto;
+    margin-right: 35px;
+}
+header ul{
+    list-style: none;
+    text-decoration:none;
+    display:flex;
+    gap:20px;
+}
+header nav a{
+    color:white;
+    text-decoration: none;
+    font-family:'Source Sans Pro';
+    font-size: 10px;
+    transition: color 0.3s ease;
+}
+header nav a:hover{
+    color: #FF6565;
+    opacity: 0.9;
+}
+.hero-content h1{
+    font-size: 20px;
+    color:white;
+    font-family:'Source Sans Pro';
+    letter-spacing:0px;
+    line-height: 100%;
+    margin-bottom: 0px;
+    margin-top: 95px;
+    text-align: center;
+}
+.hero-content span{
+    font-family:'Source Sans Pro';
+    color:white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.button-container{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button{
+     background:#FF6565;
+     color:white;
+     border:none;
+     border-radius: 25px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Add transition for transform */
+}
+.button:active{
+      transform: translateY(2px); /* Moves the button down by 2px */
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a small shadow */
+}
+.button:hover{
+    background-color: #e55a5a
+}
+.hero-section p{
+    color:white;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    width:550px;
+    margin-left: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.whatwedo{
+    text-align: center;
+    font-family:'Source Sans Pro';
+}
+.whatwedo p{
+     width:550px;
+    margin-left: 200px;
+}
+@font-face {
+  font-family: 'holberton_school-icon';
+  src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+  src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+    url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'holberton_school-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-arrow_1:before {
+  content: "\e900";
+}
+.holberton_school-icon-arrow_2:before {
+  content: "\e901";
+}
+.holberton_school-icon-arrow_3:before {
+  content: "\e902";
+}
+.holberton_school-icon-arrow_4:before {
+  content: "\e903";
+}
+.holberton_school-icon-arrow_5:before {
+  content: "\e904";
+}
+.holberton_school-icon-check:before {
+  content: "\e905";
+}
+.holberton_school-icon-ic_bag:before {
+  content: "\e906";
+}
+.holberton_school-icon-ic_cart:before {
+  content: "\e907";
+}
+.holberton_school-icon-ic_facebook:before {
+  content: "\e908";
+}
+.holberton_school-icon-ic_hearing:before {
+  content: "\e909";
+  font-size: 90px;
+  color: #FF6565;
+}
+.holberton_school-icon-ic_instagram:before {
+  content: "\e90a";
+}
+.holberton_school-icon-ic_laptop:before {
+  content: "\e90b";
+}
+.holberton_school-icon-ic_money:before {
+  content: "\e90c";
+}
+.holberton_school-icon-ic_music:before {
+  content: "\e90d";
+  font-size: 90px;
+  color:#FF6565;
+}
+.holberton_school-icon-ic_sound:before {
+  content: "\e90e";
+  font-size:90px;
+  color:#FF6565;
+}
+.holberton_school-icon-ic_twitter:before {
+  content: "\e90f";
+}
+.holberton_school-icon-ic_video:before {
+  content: "\e910";
+  font-size:90px;
+  color:#FF6565;
+}
+.holberton_school-icon-menu:before {
+  content: "\e911";
+}
+.holberton_school-icon-search_1:before {
+  content: "\e912";
+}
+.holberton_school-icon-search_2:before {
+  content: "\e913";
+}
+.holberton_school-icon-star:before {
+  content: "\e914";
+}
+.icon-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.icon-item{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 150px;
+    height: fit-content; 
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+.icon-item:hover{
+     transform: scale(1.1);
+     cursor: pointer;
+}
+.icon-item p{
+    font-family: 'Source Sans Pro';
+}
+.result-section{
+    background-image:url(images/headphones_hero_2.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #333333;
+    background-attachment:scroll;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.resul-content{
+     text-align: center;
+    font-family:'Source Sans Pro';
+    color:#fff;
+}
+.resul-content p {
+    width:550px;
+    margin-left: 200px;
+}
+.result-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.resuling{
+    position: absolute;
+      display: inline-block;
+}
+
+.img-text{
+  color: white; /* Example text color */
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-color: #ff6565; /* The red color from your image */
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+.img-text:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.img-text h2{
+    margin-top: 20px;
+}
+.img-text span{
+    font-size: xx-small;
+}
+.contact-us{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.cont{
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  color:black;
+}
+.form{
+ background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    height: fit-content; 
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro';
+    gap: 10px;
+     margin-bottom: 20px;
+}
+.form textarea{
+  height: 100px;
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.footer{
+    background-color: #071629;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.fa-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-container img{
+    width:100px;
+}
+.fa-container i{
+    border-radius: 50%;
+    background-color: #fff;
+    width:20px;
+    height: 20px;
+    place-items: center;
+    display: grid;
+}
+.footer-copy{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    color:#fff;
+    border-radius: 8px;
+    width:50px;
+    font-size:xx-small ;
+}
+.copy-container{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 100px;
+}
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            width: 30px;
+            height: 20px;
+            position: relative;
+            margin-left: 25px;
+        }
+
+        .hamburger span {
+            background: white;
+            height: 3px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            transition: all 0.3s ease;
+        }
+
+        .hamburger span:nth-child(1) {
+            top: 0;
+        }
+
+        .hamburger span:nth-child(2) {
+            top: 8px;
+        }
+
+        .hamburger span:nth-child(3) {
+            top: 16px;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg);
+            top: 8px;
+        }
+
+.hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+.hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg);
+            top: 8px;
+        }
+
+@media screen and (max-width: 480px) {
+            .hamburger {
+                display: block;
+            }
+
+            header {
+                justify-content: center; /* Center logo */
+                position: relative;
+            }
+
+            header img {
+                margin: 0; /* Center logo by removing left margin */
+            }
+
+            header nav {
+                display: none; /* Hide nav by default */
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: #333; /* Match header background */
+                padding: 1rem;
+                margin: 0;
+            }
+
+            header nav.active {
+                display: block; /* Show nav when active */
+                animation: slideIn 0.3s ease-in-out;
+            }
+
+            header ul {
+                flex-direction: column; /* Stack links vertically */
+                align-items: center; /* Center links */
+                gap: 15px;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-10px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+     }

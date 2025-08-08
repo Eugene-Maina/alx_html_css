@@ -1,0 +1,274 @@
+.hero-container{
+    background-image:url(images/headphones_hero_1.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #333333;
+    background-attachment:scroll;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    min-height:auto;
+}
+body{
+    margin:0;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 160px;
+    width:100%;
+    margin-top: 10px;
+}
+header img{
+    width:100px;
+    margin-left:35px;
+}
+header nav{
+    display:flex;
+    justify-content: flex-end;
+    margin-left:auto;
+    margin-right: 35px;
+}
+header ul{
+    list-style: none;
+    text-decoration:none;
+    display:flex;
+    gap:20px;
+}
+header nav a{
+    color:white;
+    text-decoration: none;
+    font-family:'Source Sans Pro';
+    font-size: 10px;
+}
+header nav a:hover{
+    color: #FF6565;
+    opacity: 0.9;
+}
+.hero-content h1{
+    font-size: 20px;
+    color:white;
+    font-family:'Source Sans Pro';
+    letter-spacing:0px;
+    line-height: 100%;
+    margin-bottom: 0px;
+    margin-top: 95px;
+    text-align: center;
+}
+.hero-content span{
+    font-family:'Source Sans Pro';
+    color:white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.button-container{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button{
+     background:#FF6565;
+     color:white;
+     border:none;
+     border-radius: 25px;
+    padding: 8px 15px;
+}
+.hero-section p{
+    color:white;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    width:550px;
+    margin-left: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.whatwedo{
+    text-align: center;
+    font-family:'Source Sans Pro';
+}
+.whatwedo p{
+     width:550px;
+    margin-left: 200px;
+}
+@font-face {
+  font-family: 'holberton_school-icon';
+  src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+  src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+    url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'holberton_school-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-arrow_1:before {
+  content: "\e900";
+}
+.holberton_school-icon-arrow_2:before {
+  content: "\e901";
+}
+.holberton_school-icon-arrow_3:before {
+  content: "\e902";
+}
+.holberton_school-icon-arrow_4:before {
+  content: "\e903";
+}
+.holberton_school-icon-arrow_5:before {
+  content: "\e904";
+}
+.holberton_school-icon-check:before {
+  content: "\e905";
+}
+.holberton_school-icon-ic_bag:before {
+  content: "\e906";
+}
+.holberton_school-icon-ic_cart:before {
+  content: "\e907";
+}
+.holberton_school-icon-ic_facebook:before {
+  content: "\e908";
+}
+.holberton_school-icon-ic_hearing:before {
+  content: "\e909";
+  font-size: 90px;
+  color: #FF6565;
+}
+.holberton_school-icon-ic_instagram:before {
+  content: "\e90a";
+}
+.holberton_school-icon-ic_laptop:before {
+  content: "\e90b";
+}
+.holberton_school-icon-ic_money:before {
+  content: "\e90c";
+}
+.holberton_school-icon-ic_music:before {
+  content: "\e90d";
+  font-size: 90px;
+  color:#FF6565;
+}
+.holberton_school-icon-ic_sound:before {
+  content: "\e90e";
+  font-size:90px;
+  color:#FF6565;
+}
+.holberton_school-icon-ic_twitter:before {
+  content: "\e90f";
+}
+.holberton_school-icon-ic_video:before {
+  content: "\e910";
+  font-size:90px;
+  color:#FF6565;
+}
+.holberton_school-icon-menu:before {
+  content: "\e911";
+}
+.holberton_school-icon-search_1:before {
+  content: "\e912";
+}
+.holberton_school-icon-search_2:before {
+  content: "\e913";
+}
+.holberton_school-icon-star:before {
+  content: "\e914";
+}
+.icon-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.icon-item{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 150px;
+    height: fit-content; 
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+.icon-item p{
+    font-family: 'Source Sans Pro';
+}
+.result-section{
+    background-image:url(images/headphones_hero_2.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #333333;
+    background-attachment:scroll;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.resul-content{
+     text-align: center;
+    font-family:'Source Sans Pro';
+    color:#fff;
+}
+.resul-content p {
+    width:550px;
+    margin-left: 200px;
+}
+.result-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.resuling{
+    position: absolute;
+      display: inline-block;
+}
+.resulimg img{
+    width:120px;
+    margin-top: 120px;
+}
+.img-text{
+  position: relative; /* This is the key step */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the text both horizontally and vertically */
+  color: white; /* Example text color */
+  text-align: center;
+  font-family: 'Source Sans Pro';
+   padding-bottom: 75px;
+   margin-bottom: 0px;
+}
+.img-text h2{
+    margin-top: 0%;
+}
+.img-text span{
+    font-size: xx-small;
+    margin-top: 0px;
+}
